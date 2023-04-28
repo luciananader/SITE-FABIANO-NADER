@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@media screen and (min-width: 763px) and (max-width: 992px) {
+    body,html{
+        background-color: rgb(243, 191, 122);
+    }
+
+    div#preto{
+        background-color: black;
+        width: 70vw;
+        height: 80vh;
+        margin: auto;
+        padding: 20px;
+    }
+
+    header>p{
+        color: white;
+        padding: 10px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    div#matriculas{
+        margin: auto;
+    }
+
+    footer{
+        background-color: rgb(250, 93, 36);
+        color: white;
+        margin: auto;
+        text-align: center;
+    }
+}
